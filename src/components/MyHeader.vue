@@ -17,4 +17,13 @@ CHALLENGE: Turn the provided HTML/CSS mockup into a Vue app that
   </header>
 </template>
 
-<style scoped></style>
+<style scoped>
+header img {
+  height: 150px;
+}
+header h1 {
+  font-size: 2rem;
+  color: #34495e;
+  margin-top: 10px;
+}
+</style>
