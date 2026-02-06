@@ -1,9 +1,8 @@
 <script setup>
-/*
-CHALLENGE: Turn the provided HTML/CSS mockup into a Vue app that
-           uses three components: Header, Main, and Footer.
-           Make sure you use all the provided CSS!
-*/
+import { ref } from 'vue'
+const name = ref('Framework')
+
+name.value = 'Vue'
 </script>
 
 <template>
@@ -13,7 +12,9 @@ CHALLENGE: Turn the provided HTML/CSS mockup into a Vue app that
             until you've learnt how to work with images!
             <img src="logo_vue_300px.png" alt="vue logo" />
             -->
-    <h1>Hi, I'm <span class="highlight">Vue</span></h1>
+    <h1>
+      Hi, I'm <span class="highlight">{{ name }}</span>
+    </h1>
   </header>
 </template>
 
