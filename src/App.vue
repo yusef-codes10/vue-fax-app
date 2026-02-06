@@ -1,7 +1,13 @@
-<script setup></script>
+<script setup>
+import MyHeader from './components/MyHeader.vue'
+import MyMain from './components/MyMain.vue'
+import MyFooter from './components/MyFooter.vue'
+</script>
 
 <template>
-  <div class="main"></div>
+  <MyHeader />
+  <MyMain />
+  <MyFooter />
 </template>
 
 <style scoped></style>
