@@ -1,8 +1,12 @@
-<script setup></script>
+<script setup>
+import { ref } from 'vue'
+
+const link = ref('https://vuejs.org/')
+</script>
 
 <template>
   <footer>
-    <p>Learn more about me at <a target="_blank" href="https://vuejs.org/">vuejs.org</a></p>
+    <p>Learn more about me at <a target="_blank" v-bind:href="link">vuejs.org</a></p>
   </footer>
 </template>
 
