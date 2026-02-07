@@ -39,6 +39,7 @@ const array = ref([
       </h2>
       <p>{{ array[2].paragraph }}</p>
     </section>
+    <img src="/public/images/melody.jpeg" alt="my-melody" />
   </main>
 </template>
 
@@ -60,5 +61,14 @@ h2 {
 p {
   font-size: 0.9rem;
   color: #555;
+}
+
+img {
+  width: 80%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+
+  margin: 1rem 0;
+  border-radius: 50%;
 }
 </style>
