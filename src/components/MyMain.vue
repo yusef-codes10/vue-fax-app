@@ -17,6 +17,8 @@ const array = ref([
       "I can handle everything from simple interactive elements to complex single-page applications. I'm great for small projects and large-scale applications alike.",
   },
 ])
+
+import melody from '@/assets/images/melody.jpeg'
 </script>
 
 <template>
@@ -49,6 +51,11 @@ const array = ref([
       <!-- Relative path to /assets folder -->
       <img src="@/assets/images/melody.jpeg" alt="" />
       <img src="@/assets/images/kuromi.jpeg" alt="" />
+    </section>
+
+    <section>
+      <!-- Import asset into component -->
+      <img v-bind:src="melody" alt="melody" />
     </section>
   </main>
 </template>
