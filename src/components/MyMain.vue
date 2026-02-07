@@ -39,7 +39,17 @@ const array = ref([
       </h2>
       <p>{{ array[2].paragraph }}</p>
     </section>
-    <img src="/public/images/melody.jpeg" alt="my-melody" />
+    <section>
+      <!-- Absolute path to /public folder -->
+      <img src="/public/images/melody.jpeg" alt="" />
+      <img src="/public/images/kuromi.jpeg" alt="" />
+    </section>
+
+    <section>
+      <!-- Relative path to /assets folder -->
+      <!-- <img src="@/assets/images/catmeme2_a.jpg" alt="" />
+      <img src="@/assets/images/catmeme2_b.jpg" alt="" /> -->
+    </section>
   </main>
 </template>
 
