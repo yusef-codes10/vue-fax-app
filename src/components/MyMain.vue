@@ -47,8 +47,8 @@ const array = ref([
 
     <section>
       <!-- Relative path to /assets folder -->
-      <!-- <img src="@/assets/images/catmeme2_a.jpg" alt="" />
-      <img src="@/assets/images/catmeme2_b.jpg" alt="" /> -->
+      <img src="@/assets/images/melody.jpeg" alt="" />
+      <img src="@/assets/images/kuromi.jpeg" alt="" />
     </section>
   </main>
 </template>
