@@ -22,16 +22,22 @@ const array = ref([
 <template>
   <main>
     <section>
-      <h2>I'm <span class="highlight"></span></h2>
-      <p></p>
+      <h2>
+        I'm <span class="highlight">{{ array[0].title }}</span>
+      </h2>
+      <p>{{ array[0].paragraph }}</p>
     </section>
     <section>
-      <h2>I'm <span class="highlight"></span></h2>
-      <p></p>
+      <h2>
+        I'm <span class="highlight">{{ array[1].title }}</span>
+      </h2>
+      <p>{{ array[1].paragraph }}</p>
     </section>
     <section>
-      <h2>I'm <span class="highlight"></span></h2>
-      <p></p>
+      <h2>
+        I'm <span class="highlight">{{ array[2].title }}</span>
+      </h2>
+      <p>{{ array[2].paragraph }}</p>
     </section>
   </main>
 </template>
