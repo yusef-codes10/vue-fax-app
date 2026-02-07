@@ -6,7 +6,7 @@ const link = ref('https://vuejs.org/')
 
 <template>
   <footer>
-    <p>Learn more about me at <a target="_blank" v-bind:href="link">vuejs.org</a></p>
+    <p>Learn more about me at <a target="_blank" :href="link">vuejs.org</a></p>
   </footer>
 </template>
 
