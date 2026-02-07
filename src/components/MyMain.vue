@@ -43,8 +43,8 @@ import melody from '@/assets/images/melody.jpeg'
     </section>
     <section>
       <!-- Absolute path to /public folder -->
-      <img src="/public/images/melody.jpeg" alt="" />
-      <img src="/public/images/kuromi.jpeg" alt="" />
+      <img src="/images/melody.jpeg" alt="" />
+      <img src="/images/kuromi.jpeg" alt="" />
     </section>
 
     <section>
